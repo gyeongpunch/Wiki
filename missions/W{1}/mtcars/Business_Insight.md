@@ -1,13 +1,16 @@
-	Row	Column	Value
-0	cyl	disp	0.902033
-1	cyl	hp	0.832447
-2	cyl	wt	0.782496
-3	disp	hp	0.790949
-4	disp	wt	0.88798
-5	hp	carb	0.749812
-6	drat	am	0.712711
-7	qsec	vs	0.744535
-8	am	gear	0.794059
+## High correlation coefficient
+
+|index|Feature 1|Feature 2|correlation coefficient value|
+|---|------|-----|----------|
+|0|cyl|disp|0.902033|
+|1|cyl|hp|0.832447|
+|2|cyl|wt|0.782496|
+|3|disp|hp|0.790949|
+|4|disp|wt|0.88798|
+|5|hp|carb|0.749812|
+|6|drat|am|0.712711|
+|7|qsec|vs|0.744535|
+|8|am|gear|0.794059|
 
 0.	실린더-배기 -> 실린더가 많을수록 연소량이 많아지고 배기가스 배출량이 증가한다. 상관관계가 당연히 높다.
 1.	실린더-마력 -> 실린더가 많을수록 연소량이 많아져서 구동력이 크게 발생한다. 상관관계가 당연히 높다.
