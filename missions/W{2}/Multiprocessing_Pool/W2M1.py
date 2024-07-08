@@ -17,7 +17,7 @@ def work_log(task):
     print(f"Process {name} Finished.")
 
 if __name__ == "__main__":
-    # Pool with len(tasks) workers
-    with multiprocessing.Pool(len(tasks)) as pool:
+    # Pool with 2 workers
+    with multiprocessing.Pool(2) as pool:
         # Map the work_log function to the list of tasks
         pool.map(work_log, tasks)
